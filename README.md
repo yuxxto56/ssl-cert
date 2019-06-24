@@ -27,7 +27,7 @@ curl https://get.acme.sh | sh
 ```
 ## 生成证书
 * 前提：需要在腾讯云购买一个域名
-* cme.sh 实现了 acme 协议支持的所有验证协议. 一般有两种方式验证: http 和 dns 验证，这里仅介绍 DNS 的方式
+* acme.sh 实现了 acme 协议支持的所有验证协议. 一般有两种方式验证: http 和 dns 验证，这里仅介绍 DNS 的方式
 * acme.sh 支持直接使用主流 DNS 提供商的 API 接口来完成域名验证以及一些相关操作。
 * 我们登录到：[https://www.dnspod.cn/](https://www.dnspod.cn/),使用腾讯云账户登录，打开控制台，进入左侧菜单-用户信息-安全设置进行创建API TOKEN,我这边创建成功后得到的信息是如下：
 ``` api token
