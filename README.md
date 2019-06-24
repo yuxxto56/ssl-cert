@@ -142,3 +142,13 @@ server {
       }
   }
 ```
+## 设置续签后，自动更新证书到执行目录并重启nginx
+```
+acme.sh --install-cert -d lilyg.cn \
+--key-file       /data/certs/ssl/letencrpt/lilyg.cn.key  \
+--fullchain-file /data/certs/ssl/letencrpt/fullchain.cer \
+--reloadcmd     "/usr/local/nginx-1.13.7/sbin/nginx -s reload" 
+#--reloadcmd 表示更新证书后重启，具体nginx配置路径以您自己配置的为准
+```
+## 说明
+说明：本文参考链接：[https://github.com/Neilpang/acme.sh](https://github.com/Neilpang/acme.sh),[https://www.jianshu.com/p/dbe180979e77](https://www.jianshu.com/p/dbe180979e77)
