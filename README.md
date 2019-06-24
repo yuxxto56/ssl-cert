@@ -151,4 +151,4 @@ acme.sh --install-cert -d lilyg.cn \
 #--reloadcmd 表示更新证书后重启，具体nginx配置路径以您自己配置的为准
 ```
 ## 说明
-说明：本文参考链接：[https://github.com/Neilpang/acme.sh](https://github.com/Neilpang/acme.sh),[https://www.jianshu.com/p/dbe180979e77](https://www.jianshu.com/p/dbe180979e77)
+本文参考链接：[https://github.com/Neilpang/acme.sh](https://github.com/Neilpang/acme.sh),[https://www.jianshu.com/p/dbe180979e77](https://www.jianshu.com/p/dbe180979e77)
